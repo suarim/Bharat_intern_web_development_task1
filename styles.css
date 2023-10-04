@@ -1,0 +1,87 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.1788068356.1696377600&semt=ais'); /* Replace 'background.jpg' with your image file */
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: center center;
+}
+
+  
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+.about,
+.portfolio,
+.contact,
+.accomplishment{
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.profile-pic {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto; 
+    display: block; 
+  }
+  
+.about h2,
+.portfolio h2,
+.contact h2,
+.accomplishment h2{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.project 
+.acc {
+    margin-bottom: 2rem;
+}
+
+.project img {
+    max-width: 50%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .about,
+    .portfolio,
+    .contact
+    .accomplishment {
+        margin: 1rem;
+        padding: 1rem;
+    }
+}
